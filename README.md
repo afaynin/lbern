@@ -1,6 +1,6 @@
-# Lbern
+# LBern
 
-A simple static site for Lbern jewelry. It is plain HTML, CSS and JS, with no build step.
+A simple static site for LBern jewelry. It is plain HTML, CSS and JS, with no build step.
 
 ## Adding a photo
 

@@ -1,6 +1,6 @@
 /* Site-wide settings */
 const SITE = {
-  name: "Lbern",
+  name: "LBern",
   email: "azohan@yahoo.com",
 };
 
