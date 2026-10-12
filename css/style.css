@@ -73,6 +73,18 @@ button {
   color: var(--heading);
 }
 .site-title:hover { color: var(--heading); }
+/* Red right triangle tucked into the crook of the L (Jost 700: L is 0.528em
+   wide, inner corner at 0.243em across, 0.145em up). Zero net width. */
+.title-dot {
+  display: inline-block;
+  position: relative;
+  bottom: 0.185em;
+  width: 0.2em;
+  height: 0.2em;
+  margin: 0 0.045em 0 -0.245em;
+  background: #d0021b;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
 
 .nav ul, .mobile-nav ul { list-style: none; margin: 0; padding: 0; }
 .nav ul { display: flex; gap: 2em; }

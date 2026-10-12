@@ -28,7 +28,7 @@ function renderHeader() {
   el.innerHTML = `
     <div class="header-inner">
       <nav class="nav nav-left"><ul>${navList(NAV_LEFT)}</ul></nav>
-      <a class="site-title" href="index.html">${SITE.name}</a>
+      <a class="site-title" href="index.html" aria-label="${SITE.name}">L<span class="title-dot" aria-hidden="true"></span>BERN</a>
       <nav class="nav nav-right"><ul>${navList(NAV_RIGHT)}</ul></nav>
       <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
     </div>
